@@ -78,9 +78,13 @@ public class LogicChallenges {
   }
 
   public static void main(String[] args) {
-    System.out.println(squirrelPlay(70, false));
-    System.out.println(squirrelPlay(95, false));
-    System.out.println(squirrelPlay(95, true));
+    /*
+     *
+     *
+     * USE O METODO COM OS VALORES AQUI
+     *
+     *
+     */
 
   }
 }
