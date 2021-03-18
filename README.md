@@ -1,6 +1,7 @@
 # Desafios CodingBat 💻🦇
 
 ## Desafios realizados para o aperfeiçoamento e pratica da linguagem Java.
+<p>Todos os desafios estão na pasta src </p>
 
 ### Alguns desafios presentes no site:
 
