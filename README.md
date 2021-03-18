@@ -4,21 +4,14 @@
 
 ### Alguns desafios presentes no site:
 
-#### . Warmup-1
+#### . Warmup-1       . String-1
 
-#### . Warmup-2
+#### . Warmup-2       . String-2
 
-#### . Logic-1
+#### . Logic-1        . String-3
 
-#### . Logic-2
+#### . Logic-2        . Array-1
 
-#### . String-1
-
-#### . String-2
-
-#### . String-3
-
-#### . Array-1
 
 #### . Array-2
 
