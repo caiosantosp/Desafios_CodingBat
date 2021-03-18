@@ -6,35 +6,35 @@
 
 #### . Warmup-1
 
-#### - Warmup-2
+#### . Warmup-2
 
-#### - Logic-1
+#### . Logic-1
 
-#### - Logic-2
+#### . Logic-2
 
-#### - String-1
+#### . String-1
 
-#### - String-2
+#### . String-2
 
-#### - String-3
+#### . String-3
 
-#### - Array-1
+#### . Array-1
 
-#### - Array-2
+#### . Array-2
 
-#### - Array-3
+#### . Array-3
 
-#### - Recursion-1
+#### . Recursion-1
 
-#### - Recursion-2
+#### . Recursion-2
 
-#### - Map-1
+#### . Map-1
 
-#### - Map-2
+#### . Map-2
 
-#### - Functional-1
+#### . Functional-1
 
-#### - Functional-2
+#### . Functional-2
 
 
-### Todos os desafios resolvidos aqui podem ser encontrados no site https://codingbat.com/java.
+### Todos os desafios resolvidos aqui podem ser encontrados no site https://codingbat.com/java
