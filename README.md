@@ -4,6 +4,15 @@
 
 ### Alguns desafios presentes no site:
 
+
+| Warmup-1 | String-1 | Recursion-1 | Functional 1 |
+| :------: | -------- | ----------- | :----------: |
+| Warmup-2 | String-2 | Recursion-2 | Functional-2 |
+| Array-1  | String-3 | Map-1       |   Logic-1    |
+| Array-2  | Array-3  | Map-2       |   Logic-2    |
+
+
+
 #### . Warmup-1       . String-1
 
 #### . Warmup-2       . String-2
