@@ -533,6 +533,47 @@ public class StringChallenges {
         }
     }
 
+    public static String withoutX(String str) {
+          /*
+        Given a string, if the first or last chars are 'x', return the string without those 'x' chars, and otherwise return the string unchanged.
+        Example:
+        withoutX("xHix") → "Hi"
+        withoutX("xHi") → "Hi"
+        withoutX("Hxix") → "Hxi"
+          */
+        if (str.length() < 2) {
+            return "";
+        }
+        if (str.charAt(0) == 'x') {
+            str = str.substring(1, str.length()) + str.substring(0, 1).replace("x", "");
+        }
+        if (str.substring(str.length() - 1).equals("x")) {
+            str = str.substring(str.length() - 1).replace("x", "") + str.substring(0, str.length() - 1);
+        }
+        return str;
+    }
+
+    private static String startWord(String str, String word) {
+            /*
+            Given a string and a second "word" string, we'll say that the word matches the string if it appears at the front of the string, except its first char does not need to match exactly. On a match, return the front of the string, or otherwise return the empty string. So, so with the string "hippo" the word "hi" returns "hi" and "xip" returns "hip". The word will be at least length 1.
+            Example:
+            startWord("hippo", "hi") → "hi"
+            startWord("hippo", "xip") → "hip"
+            startWord("hippo", "i") → "h"
+            */
+        if (str.length() == 0)
+            return "";
+        if (word.length() > str.length())
+            return "";
+        if (word.length() == 1)
+            return str.substring(0, 1);
+        else if (str.substring(1, word.length()).equals(word.substring(1, word.length())))
+            return str.substring(0, word.length());
+        else
+            return "";
+    }
+
+
     public static void main(String[] args) {
         /*
          *
