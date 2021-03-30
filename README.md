@@ -12,7 +12,7 @@
 | Array-2  | Array-3  | Map-2       |   Logic-2    |
 
 ### Desafios concluidos:
-#### String-1 = 24/33
+#### String-1 = 31/33
 #### Logic-1 = 3/27
 
 ### Todos os desafios resolvidos aqui podem ser encontrados no site https://codingbat.com/java
