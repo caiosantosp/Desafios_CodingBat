@@ -11,8 +11,8 @@
 | Array-1  | String-3 | Map-1       |   Logic-1    |
 | Array-2  | Array-3  | Map-2       |   Logic-2    |
 
-### Desafios concluidos:
-#### String-1 = 31/33
+### Desafios concluídos:
+#### String-1 = 33/33
 #### Logic-1 = 3/27
 
 ### Todos os desafios resolvidos aqui podem ser encontrados no site https://codingbat.com/java
