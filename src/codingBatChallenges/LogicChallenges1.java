@@ -1,8 +1,8 @@
 package codingBatChallenges;
 
-public class LogicChallenges {
+public class LogicChallenges1 {
 
-  static boolean cigarParty(int cigars, boolean isWeekend) {
+    static boolean cigarParty(int cigars, boolean isWeekend) {
     /*
       When squirrels get together for a party, they like
       to have cigars. A squirrel party is successful when
@@ -18,20 +18,20 @@ public class LogicChallenges {
       */
 
 
-    if (isWeekend) { // se final de semana
-      if (cigars >= 40) {
-        return true;
-      }
-    }
-    if (cigars >= 40 && cigars <= 60) {
-      return true;
-    } else {
-      return false;
+        if (isWeekend) { // se final de semana
+            if (cigars >= 40) {
+                return true;
+            }
+        }
+        if (cigars >= 40 && cigars <= 60) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
-  }
-
-  static int dateFashion(int you, int date) {
+    static int dateFashion(int you, int date) {
     /*
       You and your date are trying to get a table at a restaurant. The parameter
       "you" is the stylishness of your clothes, in the range 0..10, and "date" is
@@ -50,16 +50,16 @@ public class LogicChallenges {
          Caso contrário, o resultado é 1 (talvez).
       */
 
-    if (date <= 2 || you <= 2) {
-      return 0;
-    } else if (date >= 8 || you >= 8) {
-      return 2;
-    } else {
-      return 1;
+        if (date <= 2 || you <= 2) {
+            return 0;
+        } else if (date >= 8 || you >= 8) {
+            return 2;
+        } else {
+            return 1;
+        }
     }
-  }
 
-  static boolean squirrelPlay(int temp, boolean isSummer) {
+    static boolean squirrelPlay(int temp, boolean isSummer) {
     /*
       The squirrels in Palo Alto spend most of the day playing. In particular,
       they play if the temperature is between 60 and 90 (inclusive). Unless it
@@ -70,21 +70,21 @@ public class LogicChallenges {
       squirrelPlay(95, false) → false
       squirrelPlay(95, true) → true
       */
-    if (isSummer && temp >= 60 && temp <= 100 || temp >= 60 && temp <= 90) {
-      return true;
-    } else {
-      return false;
+        if (isSummer && temp >= 60 && temp <= 100 || temp >= 60 && temp <= 90) {
+            return true;
+        } else {
+            return false;
+        }
     }
-  }
 
-  public static void main(String[] args) {
-    /*
-     *
-     *
-     * USE O METODO COM OS VALORES AQUI
-     *
-     *
-     */
+    public static void main(String[] args) {
+        /*
+         *
+         *
+         * USE O METODO COM OS VALORES AQUI
+         *
+         *
+         */
 
-  }
+    }
 }
