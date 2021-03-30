@@ -1,6 +1,6 @@
 package codingBatChallenges;
 
-public class StringChallenges {
+public class StringChallenges1 {
 
     private static String helloName(String name) {
     /*
